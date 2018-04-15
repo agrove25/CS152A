@@ -29,13 +29,13 @@ module fpcvt_tb;
 
 	//simple testcase
         D = 12'b000000000001; #5;
-    if ( (S == 1'b0) && (E == 3'b000) && (F == 4'b0000))     
+    if ( (S == 1'b0) && (E == 3'b000) && (F == 4'b0001))     
     $display ("Result is correct1!");
     else begin 
     $display (" S is: %b",S);
     $display (" E is: %b",E);
     $display (" F is: %b",F);
-	 $display (" Expects: 00000000");
+	 $display (" Expects: 00000001");
     end
 
 	//simple positive testcase
