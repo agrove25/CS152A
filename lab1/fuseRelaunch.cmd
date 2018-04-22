@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_host/CS152A/lab1/fpcvt_tb_isim_beh.exe" -prj "/home/ise/Xilinx_host/CS152A/lab1/fpcvt_tb_beh.prj" "work.fpcvt_tb" "work.glbl" 
