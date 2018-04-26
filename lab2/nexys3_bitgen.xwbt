@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\152\Desktop\lab2-2\nexys3.ncd
+OUTFILE=C:\Users\152\Desktop\lab2-2\nexys3.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx16-3csg324
+WORKINGDIR=C:\Users\152\Desktop\lab2-2
+LICENSE=ISE
+USER_INFO=203015155_203016297_210565169_549
