@@ -1,22 +1,24 @@
-Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/152/Desktop/lab2-2/tb_isim_beh.exe -prj C:/Users/152/Desktop/lab2-2/tb_beh.prj work.tb work.glbl 
-ISim P.68d (signature 0x7708f090)
-Number of CPUs detected in this system: 2
-Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/share_csm152/lab2_2/tb_isim_beh.exe -prj /home/ise/share_csm152/lab2_2/tb_beh.prj work.tb work.glbl 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/seq_add.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/rtl/seq_mult.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/uart_fifo.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/uart.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/seq_rf.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/seq_alu.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/uart_top.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/seq.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/../src-lab2/rtl/nexys3.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/tb/model_uart.v" into library work
-Analyzing Verilog file "C:/Users/152/Desktop/lab2-2/tb/tb.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/seq_mult.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/seq_add.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/uart_fifo.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/uart.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/seq_rf.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/seq_alu.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/uart_top.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/seq.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/nexys3.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/model_uart.v" into library work
+Analyzing Verilog file "/home/ise/share_csm152/lab2_2/tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
+Fuse Memory Usage: 95456 KB
+Fuse CPU Usage: 1540 ms
 Compiling module model_uart(baud=1000000,name="UA...
 Compiling module seq_rf_default
 Compiling module seq_add_default
@@ -30,8 +32,8 @@ Compiling module nexys3_default
 Compiling module tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 9 sub-compilation(s) to finish...
 Compiled 12 Verilog Units
-Built simulation executable C:/Users/152/Desktop/lab2-2/tb_isim_beh.exe
-Fuse Memory Usage: 28124 KB
-Fuse CPU Usage: 685 ms
+Built simulation executable /home/ise/share_csm152/lab2_2/tb_isim_beh.exe
+Fuse Memory Usage: 98668 KB
+Fuse CPU Usage: 1680 ms
+GCC CPU Usage: 1160 ms

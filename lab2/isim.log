@@ -1,6 +1,6 @@
 ISim log file
-Running: C:\Users\152\Desktop\lab2-2\tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/152/Desktop/lab2-2/tb_isim_beh.wdb 
-ISim P.68d (signature 0x7708f090)
+Running: /home/ise/share_csm152/lab2_2/tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/share_csm152/lab2_2/tb_isim_beh.wdb 
+ISim P.20160913 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
 
@@ -10,68 +10,181 @@ This is a Full version of ISim.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
-# run 1000000000 ns
+# run 1000 ns
 Simulator is doing circuit initialization process.
 xxxxxxxxxxxxxxxx
 Finished circuit initialization process.
          5 ... led output changed to        00000000
-   1501000 ... Running instruction        00000100
-   5243925 ... instruction        00000100 executed
+# run all
+   1501000 ... Running instruction        00010000
+   5243925 ... instruction        00010000 executed
    5243925 ... led output changed to        00000001
-   6001000 ... Running instruction        00000000
-   9176085 ... instruction        00000000 executed
+   6001000 ... Running instruction        00100001
+   9176085 ... instruction        00100001 executed
    9176085 ... led output changed to        00000010
-  10501000 ... Running instruction        00010011
-  14418965 ... instruction        00010011 executed
+  10501000 ... Running instruction        11010000
+  14418965 ... instruction        11010000 executed
   14418965 ... led output changed to        00000011
-  15001000 ... Running instruction        10000110
-  18351125 ... instruction        10000110 executed
+  14427495 UART0 Received byte 52 (R)
+  14438515 UART0 Received byte 31 (1)
+  14449535 UART0 Received byte 3a (:)
+  14460555 UART0 Received byte 30 (0)
+  14471575 UART0 Received byte 30 (0)
+  14482595 UART0 Received byte 30 (0)
+  14493615 UART0 Received byte 30 (0)
+  14504635 UART0 Received byte 0a (
+)
+  14515655 UART0 Received byte 0d (
+)
+  15001000 ... Running instruction        11100000
+  18351125 ... instruction        11100000 executed
   18351125 ... led output changed to        00000100
-  19501000 ... Running instruction        01100011
-  23594005 ... instruction        01100011 executed
+  18359655 UART0 Received byte 52 (R)
+  18370675 UART0 Received byte 32 (2)
+  18381695 UART0 Received byte 3a (:)
+  18392715 UART0 Received byte 30 (0)
+  18403735 UART0 Received byte 30 (0)
+  18414755 UART0 Received byte 30 (0)
+  18425775 UART0 Received byte 31 (1)
+  18436795 UART0 Received byte 0a (
+)
+  18447815 UART0 Received byte 0d (
+)
+  19501000 ... Running instruction        01011001
+  23594005 ... instruction        01011001 executed
   23594005 ... led output changed to        00000101
-  24001000 ... Running instruction        11000000
-  27526165 ... instruction        11000000 executed
+  24001000 ... Running instruction        01011010
+  27526165 ... instruction        01011010 executed
   27526165 ... led output changed to        00000110
-  27534695 UART0 Received byte 30 (0)
-  27545715 UART0 Received byte 30 (0)
-  27556735 UART0 Received byte 34 (4)
-  27567755 UART0 Received byte 30 (0)
-  27578775 UART0 Received byte 0a (
-)
-  27589795 UART0 Received byte 0d (
-)
   28501000 ... Running instruction        11010000
   31458325 ... instruction        11010000 executed
   31458325 ... led output changed to        00000111
-  31466855 UART0 Received byte 30 (0)
-  31477875 UART0 Received byte 30 (0)
-  31488895 UART0 Received byte 30 (0)
-  31499915 UART0 Received byte 33 (3)
-  31510935 UART0 Received byte 0a (
+  31466855 UART0 Received byte 52 (R)
+  31477875 UART0 Received byte 31 (1)
+  31488895 UART0 Received byte 3a (:)
+  31499915 UART0 Received byte 30 (0)
+  31510935 UART0 Received byte 30 (0)
+  31521955 UART0 Received byte 30 (0)
+  31532975 UART0 Received byte 31 (1)
+  31543995 UART0 Received byte 0a (
 )
-  31521955 UART0 Received byte 0d (
+  31555015 UART0 Received byte 0d (
 )
   33001000 ... Running instruction        11100000
   36701205 ... instruction        11100000 executed
   36701205 ... led output changed to        00001000
-  36709735 UART0 Received byte 30 (0)
-  36720755 UART0 Received byte 30 (0)
-  36731775 UART0 Received byte 43 (C)
+  36709735 UART0 Received byte 52 (R)
+  36720755 UART0 Received byte 32 (2)
+  36731775 UART0 Received byte 3a (:)
   36742795 UART0 Received byte 30 (0)
-  36753815 UART0 Received byte 0a (
+  36753815 UART0 Received byte 30 (0)
+  36764835 UART0 Received byte 30 (0)
+  36775855 UART0 Received byte 32 (2)
+  36786875 UART0 Received byte 0a (
 )
-  36764835 UART0 Received byte 0d (
+  36797895 UART0 Received byte 0d (
 )
-  37501000 ... Running instruction        11110000
-  40633365 ... instruction        11110000 executed
+  37501000 ... Running instruction        01011001
+  40633365 ... instruction        01011001 executed
   40633365 ... led output changed to        00001001
-  40641895 UART0 Received byte 30 (0)
-  40652915 UART0 Received byte 31 (1)
-  40663935 UART0 Received byte 30 (0)
-  40674955 UART0 Received byte 30 (0)
-  40685975 UART0 Received byte 0a (
+  42001000 ... Running instruction        01011010
+  45876245 ... instruction        01011010 executed
+  45876245 ... led output changed to        00001010
+  46501000 ... Running instruction        11010000
+  49808405 ... instruction        11010000 executed
+  49808405 ... led output changed to        00001011
+  49816935 UART0 Received byte 52 (R)
+  49827955 UART0 Received byte 31 (1)
+  49838975 UART0 Received byte 3a (:)
+  49849995 UART0 Received byte 30 (0)
+  49861015 UART0 Received byte 30 (0)
+  49872035 UART0 Received byte 30 (0)
+  49883055 UART0 Received byte 33 (3)
+  49894075 UART0 Received byte 0a (
 )
-  40696995 UART0 Received byte 0d (
+  49905095 UART0 Received byte 0d (
 )
-Stopped at time : 52001 us : File "C:/Users/152/Desktop/lab2-2/tb/tb.v" Line 41
+  51001000 ... Running instruction        11100000
+  55051285 ... instruction        11100000 executed
+  55051285 ... led output changed to        00001100
+  55059815 UART0 Received byte 52 (R)
+  55070835 UART0 Received byte 32 (2)
+  55081855 UART0 Received byte 3a (:)
+  55092875 UART0 Received byte 30 (0)
+  55103895 UART0 Received byte 30 (0)
+  55114915 UART0 Received byte 30 (0)
+  55125935 UART0 Received byte 35 (5)
+  55136955 UART0 Received byte 0a (
+)
+  55147975 UART0 Received byte 0d (
+)
+  55501000 ... Running instruction        01011001
+  58983445 ... instruction        01011001 executed
+  58983445 ... led output changed to        00001101
+  60001000 ... Running instruction        01011010
+  62915605 ... instruction        01011010 executed
+  62915605 ... led output changed to        00001110
+  64501000 ... Running instruction        11010000
+  68158485 ... instruction        11010000 executed
+  68158485 ... led output changed to        00001111
+  68167015 UART0 Received byte 52 (R)
+  68178035 UART0 Received byte 31 (1)
+  68189055 UART0 Received byte 3a (:)
+  68200075 UART0 Received byte 30 (0)
+  68211095 UART0 Received byte 30 (0)
+  68222115 UART0 Received byte 30 (0)
+  68233135 UART0 Received byte 38 (8)
+  68244155 UART0 Received byte 0a (
+)
+  68255175 UART0 Received byte 0d (
+)
+  69001000 ... Running instruction        11100000
+  72090645 ... instruction        11100000 executed
+  72090645 ... led output changed to        00010000
+  72099175 UART0 Received byte 52 (R)
+  72110195 UART0 Received byte 32 (2)
+  72121215 UART0 Received byte 3a (:)
+  72132235 UART0 Received byte 30 (0)
+  72143255 UART0 Received byte 30 (0)
+  72154275 UART0 Received byte 30 (0)
+  72165295 UART0 Received byte 44 (D)
+  72176315 UART0 Received byte 0a (
+)
+  72187335 UART0 Received byte 0d (
+)
+  73501000 ... Running instruction        01011001
+  77333525 ... instruction        01011001 executed
+  77333525 ... led output changed to        00010001
+  78001000 ... Running instruction        01011010
+  81265685 ... instruction        01011010 executed
+  81265685 ... led output changed to        00010010
+  82501000 ... Running instruction        11010000
+  86508565 ... instruction        11010000 executed
+  86508565 ... led output changed to        00010011
+  86517095 UART0 Received byte 52 (R)
+  86528115 UART0 Received byte 31 (1)
+  86539135 UART0 Received byte 3a (:)
+  86550155 UART0 Received byte 30 (0)
+  86561175 UART0 Received byte 30 (0)
+  86572195 UART0 Received byte 31 (1)
+  86583215 UART0 Received byte 35 (5)
+  86594235 UART0 Received byte 0a (
+)
+  86605255 UART0 Received byte 0d (
+)
+  87001000 ... Running instruction        11100000
+  90440725 ... instruction        11100000 executed
+  90440725 ... led output changed to        00010100
+  90449255 UART0 Received byte 52 (R)
+  90460275 UART0 Received byte 32 (2)
+  90471295 UART0 Received byte 3a (:)
+  90482315 UART0 Received byte 30 (0)
+  90493335 UART0 Received byte 30 (0)
+  90504355 UART0 Received byte 32 (2)
+  90515375 UART0 Received byte 32 (2)
+  90526395 UART0 Received byte 0a (
+)
+  90537415 UART0 Received byte 0d (
+)
+Stopped at time : 101501 us : File "/home/ise/share_csm152/lab2_2/tb.v" Line 77
+# exit 0
